@@ -86,17 +86,6 @@ tinySquaresAnimation.forEach(tinySquare => {
   })
 })
 
-
-// anime({
-//   targets: '#dots .dot ',
-//   scale: [0, 1.2],
-//   delay: (el, i) => i * 100,
-//   duration: 200,
-//   loop: true,
-//   direction: 'alternate',
-//   easing: 'easeInOutSine'
-// })
-
 const dotsAnimation = document.querySelectorAll('#dots .dot')
 dotsAnimation.forEach(dot => {
   anime({
