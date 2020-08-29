@@ -40,4 +40,25 @@ width:200%;
   transform-box: fill-box;
   transform-origin: center;
 }
+.page {
+  border-left:solid 4px #000;
+  border-right:solid 4px #000;
+  position:relative;
+}
+.page:after,
+.page:before {
+  content:'';
+  position: absolute;
+  left: 0;
+  height: 8px;
+  background: #000;
+  z-index: 3;
+}
 
+.page:before {
+  top: 0;
+}
+
+.page:after{
+  bottom: 0;
+}
