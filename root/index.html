@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
   <link rel="stylesheet" href="/tachyons/css/a-tachyons.css">
   <link rel="stylesheet" href="/tachyons/css/style.css">
 
@@ -22,13 +21,13 @@
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  
 
-  <div class='page min-vh-100 flex border'>
-    
+
+  <div class='page min-vh-100 flex flex-column flex-row-ns border'>
+
     <!-------------------------------------- COLUMN 1 ----------------------------------------------------------->
-    
-    <div class="w-third flex flex-wrap ">
+
+    <div class="w-100 vh-100 flex flex-wrap ">
 
       <!--COLUMN 1-->
       <div class='w-100 h-50 overflow-hidden box conveyor-belt'>
@@ -79,7 +78,7 @@
     <!-------------------------------------- COLUMN 2 ----------------------------------------------------------->
 
 
-    <div class="w-third flex flex-wrap">
+    <div class="w-100 vh-100 flex flex-wrap">
 
       <div class="w-100 h-25 bg-blue box pa3 logo">
         <!--TEXT-->
@@ -124,7 +123,7 @@
 
     <!-------------------------------------- COLUMN 3 ----------------------------------------------------------->
 
-    <div class="w-third flex flex-wrap">
+    <div class="w-100 vh-100 flex flex-wrap">
 
       <div class="w-100 h-50 bg-purple pa3 box" id='zigzag'>
         <!--ZIG-ZAG-->
@@ -157,17 +156,11 @@
       </div>
 
       <div class="squares column3-4 w-50 h-25 bg-purple box" id='squares'>
-        <svg
-          width="100%"
-          height="100%"
-          viewBox="0 0 200 200"
-          version="1.1"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-        >
+        <svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
           <desc>Created with Sketch.</desc>
           <defs></defs>
-          <g stroke="#000" stroke-width="10px" fill="none" fill-rule='evenodd' >
+          <g stroke="#000" stroke-width="10px" fill="none" fill-rule='evenodd'>
             <rect height="25%" width="25%" x="50%" y="50%" />
             <rect height="50%" width="50%" x="50%" y="50%" />
             <rect height="75%" width="75%" x="50%" y="50%" />
@@ -182,8 +175,11 @@
   </div>
 
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js" integrity="sha512-LfB+BcvR3zBt7ebVskhSWiSbEUiG3p5EcCprkieldsKhBeR6wpnLi0VpWC2GNgVGWP2n/skO8Bx2oKNjUhXCkw==" crossorigin="anonymous"></script>
-  <script src="/root/assets/js/index.js "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"
+    integrity="sha512-LfB+BcvR3zBt7ebVskhSWiSbEUiG3p5EcCprkieldsKhBeR6wpnLi0VpWC2GNgVGWP2n/skO8Bx2oKNjUhXCkw=="
+    crossorigin="anonymous"></script>
+    <script src="/root/assets/js/index.js"></script>
+
 </body>
 
 
